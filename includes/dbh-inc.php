@@ -1,15 +1,15 @@
 <?php 
 
-$host = "ec2-52-71-55-81.compute-1.amazonaws.com";
-$user ="sppuboqfnzwmnp";
-$password = "5678dae0b8573882f1c4b33d86a594d17dc7bb511b75f912f973f57060880d98";
-$dbname = "d6q6jnolbp2dl";
-$post = "sppuboqfnzwmnp";
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "dbsearchsystem";
+// $dbServername = "localhost";
+// $dbUsername = "root";
+// $dbPassword = "";
+// $dbName = "dbsearchsystem";
+
+$dbServername = "us-cdbr-east-05.cleardb.net";
+$dbUsername = "b80fee89eaf263";
+$dbPassword = "48b36ca6";
+$dbName = "heroku_e3fa0ff8311b9cc";
 
 $conn = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
 
