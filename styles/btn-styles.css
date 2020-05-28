@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #838383 ;
+    border:none;
+    width: 25%;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn-primary:focus,
+  .btn-primary.focus {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #122b40;
+  }
+  .btn-primary:hover {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+
+  
+  .btn-secondary {
+      width: 20%;
+    color: #ffffff;
+    background-color: #989898;
+    border: none;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .btn-secondary:focus,
+  .btn-secondary.focus {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #122b40;
+  }
+  .btn-secondary:hover {
+    color: #ffffff;
+    background-color: #286090;
+    border-color: #204d74;
+  }
+
+.btn .btn-secondary {
+    height: 75px;
+}

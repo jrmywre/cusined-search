@@ -1,0 +1,41 @@
+footer{
+    height: 75px;
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 12px;
+
+}
+
+.footer-left {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-middle {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1em;
+}
+.footer-middle a {
+    text-decoration: none;
+    color: black;
+}
+.footer-right {
+    justify-self: center;
+    align-self: center;
+
+}
+.footer-right a {
+
+    text-decoration: none;
+    margin-right: 15%;
+    color: #000000;
+}
