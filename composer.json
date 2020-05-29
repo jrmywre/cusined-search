@@ -1,6 +1,10 @@
 {
+<<<<<<< HEAD
     "require": {
       "php": "^7.2.0",
         "csanquer/pdo-service-provider": "~1.1dev"
     }
+=======
+
+>>>>>>> d6d8c2de0f3abc80f19fac005f17e9f84c5570e4
 }
